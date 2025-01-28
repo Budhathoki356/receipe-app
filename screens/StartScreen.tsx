@@ -1,4 +1,4 @@
-import { View, Text, Image, StyleSheet, ImageBackground } from "react-native";
+import { View, Text, StyleSheet, ImageBackground } from "react-native";
 import { Button } from "../components/Button";
 import { theme } from "@/constants/theme";
 import React from "react";
@@ -18,7 +18,7 @@ export default function StartScreen({ navigation }: { navigation: any }) {
        <View style={styles.footer}>
         <Button 
           variant="secondary"
-          onPress={() => navigation.navigate("Onboarding")}
+          onPress={() => navigation.navigate("Login")}
         >
           Let's start
         </Button>
