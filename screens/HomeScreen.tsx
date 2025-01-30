@@ -53,7 +53,7 @@ export default function HomeScreen({ navigation }: {navigation: any}) {
       {/* Popular Recipes */}
       <View style={styles.sectionHeader}>
         <Text style={styles.sectionTitle}>Popular Recipes</Text>
-        <TouchableOpacity onPress={() => navigation.navigate('PopularRecipes')}>
+        <TouchableOpacity onPress={() => navigation.navigate('Popular')}>
           <Text style={styles.seeAll}>See All</Text>
         </TouchableOpacity>
       </View>
